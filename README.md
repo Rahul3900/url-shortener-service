@@ -194,7 +194,6 @@ GET /url_service/getAnalytics/{code}
 
 ```json
 {
-  "shortCode": "abc123",
   "clickCount": 25,
   "createdAt": "...",
   "lastAccessed": "..."
