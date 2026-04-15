@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class UrlMapper {
 
-    private static final String url = "http://localhost:8080/url_service/";
+    private static final String url = "http://3.109.124.207:8080/url_service/";
 
     public UrlResponseDTO mapToUrlDTO(UrlEntity urlEntity){
         return new UrlResponseDTO(
